@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PamplinApp.iOS", "PamplinApp.iOS\PamplinApp.iOS.csproj", "{74701224-FA35-45D7-AF83-BF62CC36C711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Debug|iPhone.Build.0 = Debug|iPhone
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Release|iPhone.ActiveCfg = Release|iPhone
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Release|iPhone.Build.0 = Release|iPhone
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{74701224-FA35-45D7-AF83-BF62CC36C711}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/bin/iPhoneSimulator/Debug/PamplinApp.iOS.exe.mdb
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/bin/iPhoneSimulator/Debug/PamplinApp.iOS.exe
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/PamplinApp.iOS.exe
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/PamplinApp.iOS.exe.mdb
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainViewController.nib
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/optimized/Default-568h@2x.png
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/5-view-6.nib
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/Info.plist
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/WelcomePage.nib
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/14-view-15.nib
+/Users/MegAinsworth/Documents/PamplinApp/PamplinApp/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/LoginPage.nib
