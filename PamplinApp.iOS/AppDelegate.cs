@@ -8,7 +8,7 @@ namespace PamplinApp.iOS
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
 	[Register ("AppDelegate")]
-	public class AppDelegate : UIApplicationDelegate
+	public partial class AppDelegate : UIApplicationDelegate
 	{
 		UIWindow window;
 		public static UIStoryboard Storyboard = UIStoryboard.FromName ("MainStoryboard", null);
@@ -20,7 +20,7 @@ namespace PamplinApp.iOS
 			set;
 		}
 
-		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
+		public override bool FinishedLaunching (UIApplication application, NSDictionary options)
 		{
 			// create a new window instance based on the screen size
 			window = new UIWindow (UIScreen.MainScreen.Bounds);

@@ -11,8 +11,8 @@ using UIKit;
 
 namespace PamplinApp.iOS
 {
-	[Register ("WelcomePage")]
-	partial class WelcomePage
+	[Register ("MainViewController")]
+	partial class MainViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -20,7 +20,7 @@ namespace PamplinApp.iOS
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIImageView LogoDisplay { get; set; }
+		UIImageView Logo { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -36,9 +36,9 @@ namespace PamplinApp.iOS
 				GetStarted.Dispose ();
 				GetStarted = null;
 			}
-			if (LogoDisplay != null) {
-				LogoDisplay.Dispose ();
-				LogoDisplay = null;
+			if (Logo != null) {
+				Logo.Dispose ();
+				Logo = null;
 			}
 			if (Welcome != null) {
 				Welcome.Dispose ();

@@ -8,6 +8,8 @@ namespace PamplinApp.iOS
 {
 	public partial class WelcomePage : UIViewController
 	{
+		
+
 		public WelcomePage () : base ("WelcomePage", null)
 		{
 		}

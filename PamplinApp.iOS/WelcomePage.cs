@@ -5,37 +5,40 @@ using UIKit;
 
 namespace PamplinApp.iOS
 {
-	partial class WelcomePage : UIViewController
+	public partial class WelcomePage : UIViewController
 	{
-
-		UIViewController LoginPage;
+		//UIViewController LoginPage;
 
 		public WelcomePage (IntPtr handle) : base (handle)
 		{
+
 		}
 
-		public override void AwakeFromNib ()
+		/*public override void AwakeFromNib ()
 		{
 			// Called when loaded from xib or storyboard.
 
 			this.Initialize ();
 		}
+		*/
 
-		public void Initialize(){
+		/*public void Initialize(){
 
-			//Instatiating View Controller with Storyboard ID 'LoginPage'
-			LoginPage = Storyboard.InstantiateViewController ("LoginPage") as LoginPage;
+			//Instatiating View Controller with Storyboard ID 'loginPage'
+			LoginPage = Storyboard.InstantiateViewController ("loginPage") as loginPage;
 		}
+		*/
 
-		public override void ViewDidLoad ()
+		/*public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
 
-			//When we push the button, we will push the pinkViewController onto our current Navigation Stack
-			PinkButton.TouchUpInside += (o, e) => {
+			//When we push the button, we will push the LoginPage onto our current Navigation Stack
+
+			GetStarted.TouchUpInside += (o, e) => {
 				this.NavigationController.PushViewController (LoginPage, true);
 			};
 		}
-
+		*/
 	}
 }
