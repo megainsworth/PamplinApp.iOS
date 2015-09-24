@@ -80,9 +80,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="WelcomePage.cs" />
-    <Compile Include="WelcomePage.designer.cs">
-      <DependentUpon>WelcomePage.cs</DependentUpon>
+    <Compile Include="MainViewController.cs" />
+    <Compile Include="MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.cs" />
     <Compile Include="LoginPage.designer.cs">
@@ -92,5 +92,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Logo.png" />
   </ItemGroup>
 </Project>
