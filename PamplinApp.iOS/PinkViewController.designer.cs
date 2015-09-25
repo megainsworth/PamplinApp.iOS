@@ -11,8 +11,8 @@ using UIKit;
 
 namespace PamplinApp.iOS
 {
-	[Register ("pinkViewController")]
-	partial class pinkViewController
+	[Register ("PinkViewController")]
+	partial class PinkViewController
 	{
 		void ReleaseDesignerOutlets ()
 		{

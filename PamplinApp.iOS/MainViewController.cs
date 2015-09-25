@@ -31,7 +31,7 @@ namespace PamplinApp.iOS
 		{
 			base.ViewDidLoad ();
 
-			//When we push the button, we will push the pinkViewController onto our current Navigation Stack
+			//When we push the button, we will push the loginPage onto our current Navigation Stack
 			GetStarted.TouchUpInside += (o, e) => {
 				this.NavigationController.PushViewController (loginPage, true);
 			};

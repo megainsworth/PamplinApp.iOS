@@ -3,9 +3,8 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="PamplinApp.iOS/AppDelegate.cs" Line="14" Column="67" />
-      <File FileName="PamplinApp.iOS/Controllers/MainViewController.cs" Line="1" Column="1" />
       <File FileName="PamplinApp.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="PamplinApp.iOS/MainViewController.cs" Line="1" Column="1" />
+      <File FileName="PamplinApp.iOS/MainViewController.cs" Line="41" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

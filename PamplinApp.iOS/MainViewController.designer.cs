@@ -24,10 +24,6 @@ namespace PamplinApp.iOS
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextView Welcome { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextView WelcomeDescription { get; set; }
 
 		void ReleaseDesignerOutlets ()
@@ -39,10 +35,6 @@ namespace PamplinApp.iOS
 			if (Logo != null) {
 				Logo.Dispose ();
 				Logo = null;
-			}
-			if (Welcome != null) {
-				Welcome.Dispose ();
-				Welcome = null;
 			}
 			if (WelcomeDescription != null) {
 				WelcomeDescription.Dispose ();
