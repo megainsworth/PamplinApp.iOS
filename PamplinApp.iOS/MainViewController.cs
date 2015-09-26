@@ -5,6 +5,8 @@ using UIKit;
 
 namespace PamplinApp.iOS
 {
+
+
 	public partial class MainViewController : UIViewController
 	{
 		//UIViewController loginPage;
@@ -27,18 +29,25 @@ namespace PamplinApp.iOS
 			//Instatiating View Controller with Storyboard ID 'LoginPage'
 			loginPage = Storyboard.InstantiateViewController ("LoginPage") as LoginPage;
 		}
-
+		*/
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
 
-			//When we push the button, we will push the loginPage onto our current Navigation Stack
-			GetStarted.TouchUpInside += (o, e) => {
-				this.NavigationController.PushViewController (loginPage, true);
-			};
+		}
+		
+	public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			base.PrepareForSegue (segue, sender);
+
+			// set the View Controller that’s powering the screen we’re
+			// transitioning to
+
+			var loginPage = segue.DestinationViewController as LoginPage;
+			
 		}
 
-		*/
+		
 
 	}
 }

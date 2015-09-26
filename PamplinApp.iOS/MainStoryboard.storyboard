@@ -16,26 +16,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1989">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1989">
                                 <rect key="frame" x="116" y="91" width="76" height="76"/>
+                                <constraints>
+                                    <constraint id="2097" firstAttribute="width" constant="76"/>
+                                    <constraint id="2098" firstAttribute="height" constant="76"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Get the most out of Pamplin with an app personalized for you." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="268">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Get the most out of Pamplin with an app personalized for you." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="268">
                                 <rect key="frame" x="20" y="228" width="280" height="95"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <constraints>
+                                    <constraint id="2120" firstAttribute="width" constant="280"/>
+                                    <constraint id="2121" firstAttribute="height" constant="95"/>
+                                </constraints>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="273">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="273">
                                 <rect key="frame" x="42" y="360" width="225" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Let's get started">
                                     <color key="titleColor" red="0.40000000000000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <constraints>
+                                    <constraint id="2124" firstAttribute="width" constant="225"/>
+                                    <constraint id="2125" firstAttribute="height" constant="45"/>
+                                </constraints>
+                                <connections>
+                                    <segue id="2174" destination="2062" kind="modal" identifier="FirstSegue" modalTransitionStyle="" modalPresentationStyle=""/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint id="2095" firstItem="1989" firstAttribute="leading" secondItem="2056" secondAttribute="leading" constant="116"/>
+                            <constraint id="2096" constant="91" firstItem="1989" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
+                            <constraint id="2118" constant="20" firstItem="2056" firstAttribute="trailing" secondItem="268" secondAttribute="trailing"/>
+                            <constraint id="2119" constant="228" firstItem="268" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
+                            <constraint id="2122" firstItem="273" firstAttribute="leading" secondItem="2056" secondAttribute="leading" constant="42"/>
+                            <constraint id="2123" constant="163" firstItem="2056" firstAttribute="bottom" secondItem="273" secondAttribute="bottom"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="GetStarted" destination="273" id="name-outlet-273"/>
@@ -59,34 +82,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1984">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1984">
                                 <rect key="frame" x="122" y="96" width="76" height="75"/>
+                                <constraints>
+                                    <constraint id="2128" firstAttribute="width" constant="76"/>
+                                    <constraint id="2129" firstAttribute="height" constant="75"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="What's your unique access code?" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="904">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="What's your unique access code?" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="904">
                                 <rect key="frame" x="34" y="189" width="251" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="2136" firstAttribute="width" constant="251"/>
+                                    <constraint id="2137" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="907">
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="907">
                                 <rect key="frame" x="34" y="228" width="251" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.36862745098039218" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="2132" firstAttribute="width" constant="251"/>
+                                    <constraint id="2133" firstAttribute="height" constant="36"/>
+                                </constraints>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="918">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="918">
                                 <rect key="frame" x="70" y="362" width="179" height="41"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Continue">
                                     <color key="titleColor" red="0.42352941176470588" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <constraints>
+                                    <constraint id="2140" firstAttribute="width" constant="179"/>
+                                    <constraint id="2141" firstAttribute="height" constant="41"/>
+                                </constraints>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint id="2126" firstItem="2063" firstAttribute="trailing" secondItem="1984" secondAttribute="trailing" constant="122"/>
+                            <constraint id="2127" constant="96" firstItem="1984" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
+                            <constraint id="2130" firstItem="907" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="34"/>
+                            <constraint id="2131" constant="228" firstItem="907" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
+                            <constraint id="2134" firstItem="904" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="34"/>
+                            <constraint id="2135" constant="189" firstItem="904" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
+                            <constraint id="2138" firstItem="918" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="70"/>
+                            <constraint id="2139" constant="165" firstItem="2063" firstAttribute="bottom" secondItem="918" secondAttribute="bottom"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2064" userLabel="First Responder" sceneMemberID="firstResponder"/>
