@@ -7,21 +7,22 @@ namespace PamplinApp.iOS
 {
 	public partial class MainViewController : UIViewController
 	{
-		UIViewController loginPage;
+		//UIViewController loginPage;
 
 
 		public MainViewController (IntPtr handle) : base (handle)
 		{
 		}
 
-		public override void AwakeFromNib ()
+		/* public override void AwakeFromNib ()
 		{
 			// Called when loaded from xib or storyboard.
 
 			this.Initialize ();
 		}
+		*/
 
-		public void Initialize(){
+		/*public void Initialize(){
 
 			//Instatiating View Controller with Storyboard ID 'LoginPage'
 			loginPage = Storyboard.InstantiateViewController ("LoginPage") as LoginPage;
@@ -36,6 +37,8 @@ namespace PamplinApp.iOS
 				this.NavigationController.PushViewController (loginPage, true);
 			};
 		}
+
+		*/
 
 	}
 }
