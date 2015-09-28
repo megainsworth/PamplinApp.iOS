@@ -22,6 +22,10 @@ namespace PamplinApp.iOS
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIScrollView AlertsScrollView { get; set; }
 
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIImageView MainPageBackground { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (AlertsListBox != null) {
@@ -31,6 +35,10 @@ namespace PamplinApp.iOS
 			if (AlertsScrollView != null) {
 				AlertsScrollView.Dispose ();
 				AlertsScrollView = null;
+			}
+			if (MainPageBackground != null) {
+				MainPageBackground.Dispose ();
+				MainPageBackground = null;
 			}
 		}
 	}

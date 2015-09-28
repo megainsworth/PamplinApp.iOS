@@ -157,6 +157,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.39215686274509803" green="0" blue="0" alpha="1"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="2415" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="Pamplin.jpg">
+                                <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2395" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="28" y="116" width="264" height="191"/>
                                 <subviews>
@@ -189,9 +192,12 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="264" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <subviews/>
                                                 </view>
+                                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
                                             </tableViewCell>
                                         </prototypes>
+                                        <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="0.33725490196078434"/>
                                     </tableView>
                                 </subviews>
                             </scrollView>
@@ -200,6 +206,7 @@
                     <connections>
                         <outlet property="AlertsScrollView" destination="2395" id="name-outlet-2395"/>
                         <outlet property="AlertsListBox" destination="2396" id="name-outlet-2396"/>
+                        <outlet property="MainPageBackground" destination="2415" id="name-outlet-2415"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2334" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -210,6 +217,7 @@
     <resources>
         <image name="Logo.png" width="150" height="150"/>
         <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="Pamplin.jpg" width="2816" height="2112"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
