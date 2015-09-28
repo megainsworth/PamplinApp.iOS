@@ -88,6 +88,10 @@
     <Compile Include="LoginPage.designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainPage.cs" />
+    <Compile Include="MainPage.designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

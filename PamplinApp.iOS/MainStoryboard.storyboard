@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1989">
-                                <rect key="frame" x="116" y="91" width="76" height="76"/>
+                                <rect key="frame" x="122" y="98" width="76" height="76"/>
                                 <constraints>
-                                    <constraint id="2097" firstAttribute="width" constant="76"/>
-                                    <constraint id="2098" firstAttribute="height" constant="76"/>
+                                    <constraint id="2263" firstAttribute="width" constant="76"/>
+                                    <constraint id="2264" firstAttribute="height" constant="76"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Get the most out of Pamplin with an app personalized for you." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="268">
@@ -52,12 +52,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint id="2095" firstItem="1989" firstAttribute="leading" secondItem="2056" secondAttribute="leading" constant="116"/>
-                            <constraint id="2096" constant="91" firstItem="1989" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
-                            <constraint id="2118" constant="20" firstItem="2056" firstAttribute="trailing" secondItem="268" secondAttribute="trailing"/>
-                            <constraint id="2119" constant="228" firstItem="268" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
                             <constraint id="2122" firstItem="273" firstAttribute="leading" secondItem="2056" secondAttribute="leading" constant="42"/>
                             <constraint id="2123" constant="163" firstItem="2056" firstAttribute="bottom" secondItem="273" secondAttribute="bottom"/>
+                            <constraint id="2261" firstItem="2056" firstAttribute="trailing" secondItem="1989" secondAttribute="trailing" constant="122"/>
+                            <constraint id="2262" constant="98" firstItem="1989" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
+                            <constraint id="2265" constant="20" firstItem="2056" firstAttribute="trailing" secondItem="268" secondAttribute="trailing"/>
+                            <constraint id="2266" constant="228" firstItem="268" firstAttribute="top" secondItem="2056" secondAttribute="top"/>
                         </constraints>
                     </view>
                     <connections>
@@ -83,10 +83,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="1984">
-                                <rect key="frame" x="122" y="96" width="76" height="75"/>
+                                <rect key="frame" x="122" y="93" width="76" height="75"/>
                                 <constraints>
-                                    <constraint id="2128" firstAttribute="width" constant="76"/>
-                                    <constraint id="2129" firstAttribute="height" constant="75"/>
+                                    <constraint id="2247" firstAttribute="width" constant="76"/>
+                                    <constraint id="2248" firstAttribute="height" constant="75"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="What's your unique access code?" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="904">
@@ -123,24 +123,44 @@
                                     <constraint id="2140" firstAttribute="width" constant="179"/>
                                     <constraint id="2141" firstAttribute="height" constant="41"/>
                                 </constraints>
+                                <connections>
+                                    <segue id="2378" destination="2332" kind="modal"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint id="2126" firstItem="2063" firstAttribute="trailing" secondItem="1984" secondAttribute="trailing" constant="122"/>
-                            <constraint id="2127" constant="96" firstItem="1984" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
                             <constraint id="2130" firstItem="907" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="34"/>
                             <constraint id="2131" constant="228" firstItem="907" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
                             <constraint id="2134" firstItem="904" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="34"/>
                             <constraint id="2135" constant="189" firstItem="904" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
                             <constraint id="2138" firstItem="918" firstAttribute="leading" secondItem="2063" secondAttribute="leading" constant="70"/>
                             <constraint id="2139" constant="165" firstItem="2063" firstAttribute="bottom" secondItem="918" secondAttribute="bottom"/>
+                            <constraint id="2249" firstItem="2063" firstAttribute="trailing" secondItem="1984" secondAttribute="trailing" constant="122"/>
+                            <constraint id="2250" constant="93" firstItem="1984" firstAttribute="top" secondItem="2063" secondAttribute="top"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2064" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="464" y="5"/>
+        </scene>
+        <scene sceneID="2331">
+            <objects>
+                <viewController id="2332" sceneMemberID="viewController" customClass="MainPage" storyboardIdentifier="MainPage" restorationIdentifier="MainPage">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2329"/>
+                        <viewControllerLayoutGuide type="bottom" id="2330"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2333">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2334" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="4"/>
         </scene>
     </scenes>
     <resources>

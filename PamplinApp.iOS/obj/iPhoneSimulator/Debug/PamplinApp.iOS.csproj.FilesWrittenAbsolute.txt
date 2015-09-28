@@ -40,3 +40,6 @@
 /Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/2062-view-2063.nib
 /Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/MainViewController.nib
 /Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/2072-view-2073.nib
+/Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/2272-view-2273.nib
+/Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/MainPage.nib
+/Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/2332-view-2333.nib

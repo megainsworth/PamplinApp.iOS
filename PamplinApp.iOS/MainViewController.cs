@@ -36,16 +36,16 @@ namespace PamplinApp.iOS
 
 		}
 		
-	public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
-		{
-			base.PrepareForSegue (segue, sender);
-
-			// set the View Controller that’s powering the screen we’re
-			// transitioning to
-
-			var loginPage = segue.DestinationViewController as LoginPage;
-			
-		}
+//	public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+//		{
+//			base.PrepareForSegue (segue, sender);
+//
+//			// set the View Controller that’s powering the screen we’re
+//			// transitioning to
+//
+//			var loginPage = segue.DestinationViewController as LoginPage;
+//			
+//		}
 
 		
 
