@@ -24,10 +24,6 @@ namespace PamplinApp.iOS
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIImageView MainPageBackground { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
 		UITableView SuggestionsListBox { get; set; }
 
 		void ReleaseDesignerOutlets ()
@@ -39,10 +35,6 @@ namespace PamplinApp.iOS
 			if (AlertsScrollView != null) {
 				AlertsScrollView.Dispose ();
 				AlertsScrollView = null;
-			}
-			if (MainPageBackground != null) {
-				MainPageBackground.Dispose ();
-				MainPageBackground = null;
 			}
 			if (SuggestionsListBox != null) {
 				SuggestionsListBox.Dispose ();
