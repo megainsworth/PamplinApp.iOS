@@ -164,7 +164,7 @@
                                 <rect key="frame" x="28" y="116" width="264" height="191"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2396" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
-                                        <rect key="frame" x="0.0" y="0.0" width="264" height="190"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="264" height="191"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2397" reuseIdentifier="Alert1">
@@ -197,16 +197,53 @@
                                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
                                             </tableViewCell>
                                         </prototypes>
-                                        <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="0.33725490196078434"/>
+                                        <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="0.70980392156862748" green="0.70980392156862748" blue="0.70980392156862748" alpha="0.13725490196078433"/>
                                     </tableView>
                                 </subviews>
                             </scrollView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2428" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="28" y="357" width="264" height="191"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2429" reuseIdentifier="Suggestion1">
+                                        <rect key="frame" x="0.0" y="22" width="264" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2430" tableViewCell="2429">
+                                            <rect key="frame" x="0.0" y="0.0" width="264" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2431" reuseIdentifier="Suggestion2">
+                                        <rect key="frame" x="0.0" y="66" width="264" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2432" tableViewCell="2431">
+                                            <rect key="frame" x="0.0" y="0.0" width="264" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2433" reuseIdentifier="Suggestion3">
+                                        <rect key="frame" x="0.0" y="110" width="264" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2434" tableViewCell="2433">
+                                            <rect key="frame" x="0.0" y="0.0" width="264" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <subviews/>
+                                        </view>
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="0.70980392156862748" green="0.70980392156862748" blue="0.70980392156862748" alpha="0.13725490196078433"/>
+                            </tableView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="AlertsScrollView" destination="2395" id="name-outlet-2395"/>
                         <outlet property="AlertsListBox" destination="2396" id="name-outlet-2396"/>
                         <outlet property="MainPageBackground" destination="2415" id="name-outlet-2415"/>
+                        <outlet property="SuggestionsListBox" destination="2428" id="name-outlet-2428"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2334" userLabel="First Responder" sceneMemberID="firstResponder"/>
