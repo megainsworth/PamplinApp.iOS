@@ -16,6 +16,10 @@ namespace PamplinApp.iOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel AlertsLabel { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UITableView AlertsListBox { get; set; }
 
 		[Outlet]
@@ -24,10 +28,22 @@ namespace PamplinApp.iOS
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView SuggestionsListBox { get; set; }
+		UILabel MainPageLabel { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIImageView MainPageLogo { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel SuggestionsLabel { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (AlertsLabel != null) {
+				AlertsLabel.Dispose ();
+				AlertsLabel = null;
+			}
 			if (AlertsListBox != null) {
 				AlertsListBox.Dispose ();
 				AlertsListBox = null;
@@ -36,9 +52,17 @@ namespace PamplinApp.iOS
 				AlertsScrollView.Dispose ();
 				AlertsScrollView = null;
 			}
-			if (SuggestionsListBox != null) {
-				SuggestionsListBox.Dispose ();
-				SuggestionsListBox = null;
+			if (MainPageLabel != null) {
+				MainPageLabel.Dispose ();
+				MainPageLabel = null;
+			}
+			if (MainPageLogo != null) {
+				MainPageLogo.Dispose ();
+				MainPageLogo = null;
+			}
+			if (SuggestionsLabel != null) {
+				SuggestionsLabel.Dispose ();
+				SuggestionsLabel = null;
 			}
 		}
 	}

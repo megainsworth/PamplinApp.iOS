@@ -27,9 +27,15 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	/Users/MegAinsworth/Desktop/PamplinApp.iOS/Components/flyoutnavigation-1.5.1/lib/ios-unified/FlyoutNavigation.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/MegAinsworth/Desktop/PamplinApp.iOS/Components/flyoutnavigation-1.5.1/lib/ios-unified/FlyoutNavigation.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/MegAinsworth/Desktop/PamplinApp.iOS/PamplinApp.iOS/bin/iPhoneSimulator/Debug//PamplinApp.iOS.exe \

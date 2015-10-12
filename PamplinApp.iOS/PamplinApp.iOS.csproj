@@ -65,6 +65,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="FlyoutNavigation">
+      <HintPath>..\Components\flyoutnavigation-1.5.1\lib\ios-unified\FlyoutNavigation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -92,11 +96,26 @@
     <Compile Include="MainPage.designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestNavigation.cs" />
+    <Compile Include="TestNavigation.designer.cs">
+      <DependentUpon>TestNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestsPage.cs" />
+    <Compile Include="InterestsPage.designer.cs">
+      <DependentUpon>InterestsPage.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Logo.png" />
     <BundleResource Include="Resources\Pamplin.jpg" />
+    <BundleResource Include="Resources\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="flyoutnavigation">
+      <Version>1.5.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>

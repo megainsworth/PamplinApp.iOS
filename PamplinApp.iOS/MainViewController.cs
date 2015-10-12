@@ -3,6 +3,9 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
+using FlyoutNavigation;
+using MonoTouch.Dialog;
+
 namespace PamplinApp.iOS
 {
 
@@ -14,6 +17,7 @@ namespace PamplinApp.iOS
 
 		public MainViewController (IntPtr handle) : base (handle)
 		{
+			
 		}
 
 		/* public override void AwakeFromNib ()
@@ -33,8 +37,11 @@ namespace PamplinApp.iOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			
 
 		}
+
+		
 		
 //	public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
 //		{

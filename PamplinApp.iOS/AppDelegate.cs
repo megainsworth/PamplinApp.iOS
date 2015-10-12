@@ -1,6 +1,8 @@
 ﻿using Foundation;
 using UIKit;
 
+using FlyoutNavigation;
+using MonoTouch.Dialog;
 
 namespace PamplinApp.iOS
 {
@@ -67,6 +69,8 @@ namespace PamplinApp.iOS
 		{
 			// Called when the application is about to terminate. Save data, if needed. See also DidEnterBackground.
 		}
+		
+	
 	}
 
 
