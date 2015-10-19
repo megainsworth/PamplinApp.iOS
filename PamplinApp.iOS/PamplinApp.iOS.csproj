@@ -104,6 +104,10 @@
     <Compile Include="InterestsPage.designer.cs">
       <DependentUpon>InterestsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="EventsListPage.cs" />
+    <Compile Include="EventsListPage.designer.cs">
+      <DependentUpon>EventsListPage.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
